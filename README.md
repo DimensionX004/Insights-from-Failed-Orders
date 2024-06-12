@@ -1,4 +1,4 @@
-Insights from Failed Orders
+****Insights from Failed Orders****
 
 This data project has been used as datasets in the recruitment process for the data science positions at Gett.
 Gett, previously known as GetTaxi, is an Israeli-developed technology platform solely focused on corporate Ground Transportation Management (GTM). They have an application where clients can order taxis, and drivers can accept their rides (offers). At the moment, when the client clicks the Order button in the application, the matching system searches for the most relevant drivers and offers them the order. In this task, we would like to investigate some matching metrics for orders that did not completed successfully, i.e., the customer didn't end up getting a car.
@@ -10,7 +10,7 @@ Gett, previously known as GetTaxi, is an Israeli-developed technology platform s
 4. Plot the distribution of average ETA by hours. How can this plot be explained?
 5. Using the h3 and folium packages, calculate how many sizes 8 hexes contain 80% of all orders from the original data sets and visualise the hexes, colouring them by the number of fails on the map.
 
-Data Description:
+**Data Description:**
 
 We have two data sets: data_orders and data_offers, both being stored in a CSV format. The data_orders data set contains the following columns:
 * order_datetime - time of the order
